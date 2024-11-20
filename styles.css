@@ -1,0 +1,19 @@
+#player1-score, #player2-score {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #00ffcc;
+}
+
+#player2-indicator {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #4444ff;
+    border-radius: 50%;
+    display: none; /* Only for Player 2 */
+}
+
+.play-area {
+    position: relative;
+    border: 3px solid #00ffcc;
+}

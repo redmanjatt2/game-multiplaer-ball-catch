@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch the Ball - Multiplayer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Catch the Ball! - Multiplayer</h1>
+        <p>Player 1: Click the ball with your mouse.<br>Player 2: Use keys (W, A, S, D) to "catch" the ball.</p>
+        <div id="scores">
+            <div id="player1-score">Player 1 Score: 0</div>
+            <div id="player2-score">Player 2 Score: 0</div>
+        </div>
+        <div id="timer">Time Left: 30s</div>
+        <div class="play-area">
+            <div id="ball"></div>
+            <div id="player2-indicator"></div>
+        </div>
+        <button id="start-button">Start Game</button>
+    </div>
+    <audio id="click-sound" src="click.mp3"></audio>
+    <audio id="game-over-sound" src="game-over.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
